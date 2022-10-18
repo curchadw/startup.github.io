@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: url("images/header.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+h1{
+  font-size: 3rem;
+  color:#e2dbdb;
+  
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 300px !important;
+  text-transform: uppercase;
+}
+
+/* Add !important to any default bootstrap properties that you are trying to override */
+
+.btn-primary {
+  background-color: #F05F44 !important;
+  border-color: #F05F44 !important;
+}
+
+.btn-primary:hover{
+  background-color: #ee4b08 !important;
+  border-color: #ee4b08 !important;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+hr{
+  margin: 20px auto !important;
+  color: #F05F44 !important;
+  border: 1px solid #F05F44 !important;
+  max-width: 65px;
+  opacity: 1 !important;
+  
+  
+}
+
+
+
